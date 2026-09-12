@@ -44,4 +44,3 @@ Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
 Get-AppLockerPolicy -Local | Test-AppLockerPolicy -path C:\Windows\System32\cmd.exe -User Everyone
 ```
 
-## P
