@@ -11,3 +11,35 @@
   <img src="https://img.shields.io/badge/-PRIVILEGES-111827?style=for-the-badge&logoColor=FF003C" alt="Privileges">
 </p>
 
+```
+ whoami /user
+```
+
+```
+ whoami /priv
+```
+
+```
+net localgroup administrators
+```
+
+- Confirmacion del UAC habilitado.
+
+```
+REG QUERY HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\ /v EnableLUA
+```
+
+- Nivel de UAC del 1 al 5
+
+```
+REG QUERY HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\ /v ConsentPromptBehaviorAdmin
+```
+
+```
+environment]::OSVersion.Version
+```
+
+```
+cmd /c echo %PATH%
+```
+
