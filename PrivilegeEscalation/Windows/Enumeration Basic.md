@@ -26,6 +26,7 @@ arp -a
 route print
 ```
 
+
 ## Internal status
 - Comprobar el estado de Windows Defender
   
