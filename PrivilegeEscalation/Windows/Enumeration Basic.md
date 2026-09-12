@@ -48,3 +48,93 @@ Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
 Get-AppLockerPolicy -Local | Test-AppLockerPolicy -path C:\Windows\System32\cmd.exe -User Everyone
 ```
 
+```
+tasklist /svc
+```
+
+- Variables de entorno
+
+```
+set
+```
+
+- Ver informacion de la configuracion detallada
+
+```
+systeminfo
+```
+
+- Parches y actualizaciones
+
+
+```
+wmic qfe
+```
+
+```
+Get-HotFix | ft -AutoSize
+```
+
+- Programas instalados
+
+
+```
+wmic product get name
+```
+
+```
+Get-WmiObject -Class Win32_Product |  select Name, Version
+```
+
+- Conexiones de red
+
+
+```
+netstat -ano
+```
+
+- Usuarios con sesion iniciada
+
+
+```
+query user
+```
+
+```
+echo %USERNAME%
+```
+
+- Privilegios
+
+
+```
+whoami /priv
+```
+
+```
+whoami /groups
+```
+
+```
+net user
+```
+
+- Obtener grupos
+
+
+```
+net localgroup
+```
+
+```
+net localgroup administrators
+```
+
+- Politica de cuentas 
+
+
+```
+net accounts
+```
+
+
