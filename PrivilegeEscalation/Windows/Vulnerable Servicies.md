@@ -12,3 +12,24 @@
   <img src="https://img.shields.io/badge/-SECURITY-111827?style=for-the-badge&logo=owasp&logoColor=00FFFF" alt="Security">
 </p>
 
+
+```
+wmic product get name
+```
+
+```
+get-process -Id 3324
+```
+
+
+```
+netstat -ano | findstr 6064
+```
+
+
+
+```
+get-service | ? {$_.DisplayName -like 'Druva*'}
+```
+
+
