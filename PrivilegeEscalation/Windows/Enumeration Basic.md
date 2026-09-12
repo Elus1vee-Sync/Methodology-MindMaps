@@ -25,3 +25,23 @@ arp -a
 ```
 route print
 ```
+
+- Comprobar el estado de Windows Defender
+
+```
+Get-MpComputerStatus
+```
+
+- Lista de reglas de AppLocker
+
+```
+Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
+```
+
+- Probar la politica de AppLocker
+
+```
+Get-AppLockerPolicy -Local | Test-AppLockerPolicy -path C:\Windows\System32\cmd.exe -User Everyone
+```
+
+## P
