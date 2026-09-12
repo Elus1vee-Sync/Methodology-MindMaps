@@ -13,3 +13,14 @@
 </p>
 
 
+```
+ipconfig /all
+```
+
+```
+arp -a
+```
+
+```
+route print
+```
