@@ -11,3 +11,6 @@
   <img src="https://img.shields.io/badge/SQLMap-Automated_Exploitation-111827?style=for-the-badge&logoColor=00FFFF">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+
+
