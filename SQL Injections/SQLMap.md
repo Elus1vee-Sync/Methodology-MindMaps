@@ -48,6 +48,13 @@ sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&passwor
 
 ## Basic Parameters
 
+Tipo Verbose
+```
+-v {1..6}
+```
+
+<br>
+
 Injection de tipo B,E,U,S,T,Q
 ```
 --technique=E
