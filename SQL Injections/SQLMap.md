@@ -69,9 +69,9 @@ Injection de tipo B,E,U,S,T,Q
 
 <br>
 
-Saber que tipo de base de datos tiene por detras
+Saber version de la BD, nombre del usuario actual,nombre de la BD actual , permisos del usuario.
 ```
- --is-dba
+--banner --currents-user --current-db --is-dba
 ```
 <br>
 
