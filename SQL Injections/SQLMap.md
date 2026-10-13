@@ -13,8 +13,9 @@
 </p>
 
 
-
-
+<br>
+<br>
+<br>
 
 ## Basic Inyections
 
@@ -32,8 +33,10 @@ Indicar a todas las preguntas un Yes all
 sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&password=abc" --batch 
 ```
 
-
-
+<br>
+<br>
+<br>
+<br>
 
 ## Basic Parameters
 
