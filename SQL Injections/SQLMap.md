@@ -47,12 +47,12 @@ Injection de tipo B,E,U,S,T,Q
 --technique=E
 ```
 
-> B: Boolean-based blind
-> E: Error-based
-> U: Union query-based
-> S: Stacked queries
-> T: Time-based blind
-> Q: Inline queries
+> B: Boolean-based blind |
+> E: Error-based |
+> U: Union query-based | 
+> S: Stacked queries | 
+> T: Time-based blind |
+> Q: Inline queries |
 
 <br>
 
