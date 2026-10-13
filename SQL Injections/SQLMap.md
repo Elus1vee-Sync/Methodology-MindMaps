@@ -52,7 +52,7 @@ Read Files
 ```
 ---file-read "/etc/password"
 ```
-> Output -> ~/.sqlmap/output/www.prueba.com/files/_etc_password
+> Output " ~/.sqlmap/output/www.prueba.com/files/_etc_password"
 
 <br>
 ```
