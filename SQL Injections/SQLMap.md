@@ -42,10 +42,32 @@ sqlmap -u 'http://prueba.com/info.php?action=login' --data="username=abc&passwor
 
 ## Basic Parameters
 
+Injection de tipo B,E,U,S,T,Q
+```
+--technique=E
+```
+
+> B: Boolean-based blind
+> E: Error-based
+> U: Union query-based
+> S: Stacked queries
+> T: Time-based blind
+> Q: Inline queries
+
+<br>
+
 Saber que tipo de base de datos tiene por detras
 ```
  --is-dba
 ```
+<br>
+
+
+Shell del S.O
+```
+--os-shell
+```
+
 <br>
 
 Read Files
