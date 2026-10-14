@@ -94,7 +94,7 @@ Injection de tipo B,E,U,S,T,Q
 
 Saber version de la BD, nombre del usuario actual,nombre de la BD actual , permisos del usuario.
 ```
---banner --currents-user --current-db --is-dba
+--banner --current-user --current-db --is-dba
 ```
 <br>
 
