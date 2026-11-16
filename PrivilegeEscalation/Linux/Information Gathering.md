@@ -15,3 +15,26 @@
 <br>
 <br>
 <br>
+
+
+# 🐧 Linux Privilege Escalation: Enumeración del Entorno (Cheat Sheet)
+
+## 1. Orientación Básica (Primeros Pasos)
+```bash
+whoami
+```
+
+```
+id
+```
+
+```
+hostname
+```
+
+```
+ip a || ifconfig
+```
+```
+sudo -l
+```
